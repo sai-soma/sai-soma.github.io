@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{float: left;}
+        h2{color: red;
+            font-weight: bold;  
+            font-size: xxx-large; 
+            position: absolute;
+            margin-left: 80px; 
+            margin-top: 50px;
+        }
+        body{background-color: black;
+        margin: 0;
+        }
+        
+        .container{background-color: rgb(27, 27, 27);
+                    width: 100%;
+                    height: 100px;
+                    }
+        .picture{width: 200px;
+                height: 225px;
+                background-color: beige;
+                display: inline-block;
+                margin-left: 175px;
+               
+            } 
+            .picture:hover{background-color: aqua;
+                border: 2px solid red;
+                
+            }  
+                
+            .secrow{width: 475px;
+                height: 275px;
+                background-color: black;
+                display: inline-block;
+                margin-left: 125px;
+               
+            }  
+            .secrow img{width: 450px;
+            height: 250px;}
+            .secrow img:hover{width: 475px;
+            height: 275px;}
+            .secrow:hover{box-shadow: 2px 2px 4px rgb(231, 20, 20);}
+            .third{width: 475px;
+                height: 275px;
+                background-color: black;
+                display: inline-block;
+                margin-left: 125px;
+               
+            }  
+            .third img{width: 450px;
+            height: 250px;}
+            .third img:hover{width: 475px;
+            height: 275px;}
+            .third:hover{box-shadow: 2px 2px 4px rgb(231, 20, 20);}
+
+            @keyframes topics 
+            {
+                from {
+                        top: 10px;
+
+                    }
+                to {
+                    top: 100px;
+                    }            
+            }
+    
+        .pic{
+            animation-name: topics;
+            position: relative;
+            margin: auto;
+            animation-name: topics;
+            animation-duration: 2s;
+            animation-delay: 0s;
+            animation-iteration-count: 4;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards; 
+        
+        }
+        @keyframes hello 
+            {
+                from {
+                        left: 10px;
+
+                    }
+                to {
+                    left: 100px;
+                    }            
+            }
+    
+        h4{
+            animation-name: hello;
+            position: relative;
+            margin: auto;
+            animation-name: hello;
+            animation-duration: 2s;
+            animation-delay: 0s;
+            animation-iteration-count: 2;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        
+        }
+       .opt{display: inline-block;
+               float: right;
+                margin: 20px; 
+                margin-top: 70px;
+                color: white;
+                text-decoration: none;    
+    }
+        .opt:hover{color: red;
+                    background-color: white;
+               border-radius: 3px 3px 3px 3px;}
+               .submenu{display: none;
+            position: absolute;}
+               .opt:hover .submenu{
+                display: block;
+               }
+    </style>
+</head>
+<body><hr>
+   <div class="container">
+        <img src="https://pngimg.com/d/netflix_PNG8.png" class="pic" alt="Logo" width="110px" height="100px">
+        <h2>ETFLIX</h2><h4 style="position: absolute; margin-left: 270px; margin-top: 80px; color: white;">See what’s next</h4>
+        <div style="vertical-align: middle;">
+            <a class="opt" href="https://about.netflix.com/en">About</a>
+            <a class="opt" href="https://www.netflix.com/in/browse/genre/83">TV Shows</a>
+            <a class="opt" href="https://www.netflix.com/in/browse/genre/34399">Movies</a>
+            <a class="opt" class="list" href="https://www.netflix.com/in/browse/genre/34399">Menu
+                <div class="submenu"> <a href="#">LogIn</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Membership</a>
+                </div>
+               
+            </a>
+            <a class="opt" href="https://www.netflix.com/in/">Home</a></div>
+   </div><hr> <br><br>
+
+   <div class="picture"><a href="https://www.youtube.com/watch?v=cq2iTHoLrt0"><img src="https://medias.spotern.com/medias/posters/w290-poster/8/8585-en.jpg" alt="" height="225px" width="200px" usemap="mymap2"></a></div>
+   <div class="picture"><a href="https://www.youtube.com/watch?v=Ruyl8_PT_y8"><img src="https://i.pinimg.com/736x/27/a5/8b/27a58b1855fc97b0b0fe43f00f60b24e.jpg" alt="" height="225px" width="200px"></a></div>
+   <div class="picture"><a href="https://www.youtube.com/watch?v=sBEvEcpnG7k"><img src="https://wallpapergod.com/images/hd/stranger-things-1600X1280-wallpaper-n9j38ahw2i5jmk7r.jpeg" alt="" height="225px" width="200px"></a></div>
+   
+   <br><br><br>
+
+   <center>
+    <p style="font-size: larger;font-weight: bold;color: red; font-family: 'Times New Roman', Times, serif;"> Welcome to Netflix, where the world's best stories come to life, right at your fingertips.</p>
+   </center>
+<br><br>
+<table>
+    <tr>
+        <td><div class="secrow"><a href="https://www.youtube.com/watch?v=o2AsIXSh2xo"><img src="https://learnanimation.files.wordpress.com/2019/01/bird-box-movie.jpg?w=584" alt=""></a></div>
+        </td>
+        <td><div class="secrow">
+            <p style="color: white;font-size: large; font-family: 'Times New Roman', Times, serif; text-align: center;">
+                At Netflix, we offer a vast universe of entertainment curated to delight every viewer.
+                Our extensive library includes movies, TV shows, documentaries, and Netflix Originals, inviting audiences 
+                to explore storytelling from around the world. From action to drama, comedy to thriller, and documentaries 
+                to original productions, there's something for everyone. Our commitment to innovation and creativity 
+                shines through interactive experiences and diverse international offerings, ensuring every moment is 
+                an adventure.
+            </p>    
+        </div></td>
+    </tr>
+</table>
+   
+
+   <br><br><br><br><br>
+<table><tr>
+    <td> <div class="third">
+        <p style="color: white; font-family: 'Times New Roman', Times, serif;font-size: x-large;">
+            Netflix is a leading global streaming service offering a vast library of movies, TV shows, documentaries, and original content across various genres. Launched in 1997 as a DVD rental service, Netflix transitioned into streaming in 2007, revolutionizing the way people consume entertainment.
+        </p>
+    </div></td>
+    <td>   <div class="third"><a href="https://www.youtube.com/watch?v=BmllggGO4pM"><img src="https://cdn.telanganatoday.com/wp-content/uploads/2022/07/Gray-Man-is-too-grey-Skip-it-if-you-may.jpg" alt="" height="250px" width="450px"></a></div> 
+    </td>
+</tr></table>
+  
+   
+   
+   <br><br><br><br><br>
+   
+   <p style="color: white; text-align: center;">@Netflix All Rights Reserved. &copy;Copyright Content</p><br>
+
+</body>
+</html>
