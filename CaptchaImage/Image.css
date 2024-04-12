@@ -1,0 +1,47 @@
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px; font-weight: bold;
+}
+body{
+    background-image:url("https://wallpapercave.com/wp/wp3013540.jpg");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    display:inline;
+    flex-wrap: wrap;
+}
+.container div{
+    display: inline;
+}
+img:hover{
+    border: 5px solid black;
+}
+button:hover{
+    background-color:white;
+    border: 1.8px solid black;
+}
+button{width: 95px;height: 35px;
+background-color: whitesmoke;}
+img {
+margin: 25px;
+border: 5px solid #555;
+width: 10%;
+height: 250px;
+}
+.flex {
+display: flex;
+justify-content: center;
+}
+.selected {
+border: 5px solid rgb(0, 195, 255);
+}
+p {
+text-align: center;
+}
+button {
+margin: 20px;
+}
+#output{
+    font-weight: bold;
+}
